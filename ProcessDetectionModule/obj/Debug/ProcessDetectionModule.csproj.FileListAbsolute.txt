@@ -1,0 +1,6 @@
+C:\Users\Ashleigh\Documents\Visual Studio 2015\Projects\ProcessDetectionModule\ProcessDetectionModule\bin\Debug\ProcessDetectionModule.dll.config
+C:\Users\Ashleigh\Documents\Visual Studio 2015\Projects\ProcessDetectionModule\ProcessDetectionModule\bin\Debug\ProcessDetectionModule.dll
+C:\Users\Ashleigh\Documents\Visual Studio 2015\Projects\ProcessDetectionModule\ProcessDetectionModule\bin\Debug\ProcessDetectionModule.pdb
+C:\Users\Ashleigh\Documents\Visual Studio 2015\Projects\ProcessDetectionModule\ProcessDetectionModule\obj\Debug\ProcessDetectionModule.csprojResolveAssemblyReference.cache
+C:\Users\Ashleigh\Documents\Visual Studio 2015\Projects\ProcessDetectionModule\ProcessDetectionModule\obj\Debug\ProcessDetectionModule.dll
+C:\Users\Ashleigh\Documents\Visual Studio 2015\Projects\ProcessDetectionModule\ProcessDetectionModule\obj\Debug\ProcessDetectionModule.pdb
