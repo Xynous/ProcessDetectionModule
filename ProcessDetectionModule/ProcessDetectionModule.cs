@@ -1,63 +1,170 @@
 ﻿/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     Author:
     Developer: Xynous (Also known as "Evention")
-
     IMPORTANT!
     All credit goes to Xynous.
-    DO NOT REMOVE CREDITS ON WHO DEVELOPED THIS CLASS, as I have worked hard to get this class working and still am.
-
+    DO NOT REMOVE CREDITS ON WHO DEVELOPED THIS CLASS, as I have worked hard to get this class working.
 */
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-using System.Diagnostics;
 using System.Threading;
+using System.Diagnostics;
 
 namespace NS_ProcessDetectionModule
 {
-    public class ProcessDetectionModule
+    class ProcessDetectionModule
     {
-        // ProcessDetection Method
         public static void ProcessDetection()
-        {   
-            // Infinite loop, what will constanly loop. This is to keep a constant check of what process are running on the Windows Operating System.
+        {
+            // Infinite for loop which will constanly loop to check the client.
             for (;;)
             {
-               
-                // Passes String in parameters to var variable.
-                foreach (var Process1 in Process.GetProcessesByName("Add process name here"))
-                {
-                    // Kills the process on dectection
-                    Process1.Kill();
+                #region Internal (Injectors)
 
-                    // Puts a 1 milliseconds sleep on the running thread. Basically puts a pause in the thread before execution.
-                    Thread.Sleep(1000);
+                // Injector Strings goes here what processes you want to detect.
+                Process[] PC1I = Process.GetProcessesByName("Process name here");
+                Process[] PC2I = Process.GetProcessesByName("Process name here");
+                Process[] PC3I = Process.GetProcessesByName("Process name here");
+
+                #endregion
+
+                #region External (Applications)
+
+                // External application strings goes here what processes you want to detect.
+
+                Process[] PC1E = Process.GetProcessesByName("Process name here");
+                Process[] PC2E = Process.GetProcessesByName("Process name here");
+                Process[] PC3E = Process.GetProcessesByName("Process name here");
+
+                #endregion
+
+                #region Internal Checks
+
+                // If the cheat is not running, do nothing
+                if (PC1I.Length == 0)
+                {
+                    // Do nothing.
                 }
 
-                // Passes String in parameters to var variable.
-                foreach (var Process2 in Process.GetProcessesByName("Add process name here"))
+                // If the cheat is running, perform the following action/task.
+                else if (PC1I.Length == 1)
                 {
-                    // Kills the process on dectection
-                    Process2.Kill();
+                    // Passes the process name string into process1 variable
+                    foreach (var process1 in Process.GetProcessesByName("Process name here"))
+                    {
+                        // Kills game process or whatever process you passed and set to kill. So if the process is detected running (which is set above), then kill this process what is set here (if its running). 
+                        process1.Kill();
 
-                    // Puts a 1 milliseconds sleep on the running thread. Basically puts a pause in the thread before execution.
-                    Thread.Sleep(1000);
+                        // Puts a 1 ms sleep on the thread to prevent exception error after process is killed.
+                        Thread.Sleep(1000);
+                    }
                 }
 
-                // Passes String in parameters to var variable.
-                foreach (var Process3 in Process.GetProcessesByName("Add process name here"))
+                // If the cheat is not running, do nothing
+                if (PC2I.Length == 0)
                 {
-                    // Kills the process on dectection
-                    Process3.Kill();
-
-                    // Puts a 1 milliseconds sleep on the running thread. Basically puts a pause in the thread before execution.
-                    Thread.Sleep(1000);
+                    // Do nothing
                 }
-                
-                
-                /* Add more foreach iterators here to add more process names to be detected */  
+
+                // If the cheat is running, perform the following action/task.
+                else if (PC2I.Length == 1)
+                {
+                    // Passes the process name string into process1 variable
+                    foreach (var process1 in Process.GetProcessesByName("Process name here"))
+                    {
+                        // Kills game process or whatever process you passed and set to kill. So if the process is detected running (which is set above), then kill this process what is set here (if its running).
+                        process1.Kill();
+
+                        // Puts a 1 ms sleep on the thread to prevent exception error after process is killed.
+                        Thread.Sleep(1000);
+                    }
+                }
+
+                // If the cheat is not running, do nothing
+                if (PC3I.Length == 0)
+                {
+                    // Do nothing
+                }
+
+                // If the cheat is running, perform the following action/task.
+                else if (PC3I.Length == 1)
+                {
+                    // Passes the process name string into process1 variable
+                    foreach (var process1 in Process.GetProcessesByName("Process name here"))
+                    {
+                        // Kills game process or whatever process you passed and set to kill. So if the process is detected running (which is set above), then kill this process what is set here (if its running).
+                        process1.Kill();
+
+                        // Puts a 1 ms sleep on the thread to prevent exception error after process is killed.
+                        Thread.Sleep(1000);
+                    }
+                }
+                #endregion
+
+                #region External Checks
+
+                // If the cheat is not running, do nothing
+                if (PC1E.Length == 0)
+                {
+                    // Do nothing.
+                }
+
+                // If the cheat is running, perform the following action/task.
+                else if (PC1E.Length == 1)
+                {
+                    // Passes the process name string into process1 variable
+                    foreach (var process1 in Process.GetProcessesByName("Process name here"))
+                    {
+                        // Kills game process or whatever process you passed and set to kill. So if the process is detected running (which is set above), then kill this process what is set here (if its running).
+                        process1.Kill();
+
+                        // Puts a 1 ms sleep on the thread to prevent exception error after process is killed.
+                        Thread.Sleep(1000);
+                    }
+                }
+
+                // If the cheat is not running, do nothing
+                if (PC2E.Length == 0)
+                {
+                    // Do nothing.
+                }
+
+                // If the cheat is running, perform the following action/task.
+                else if (PC2E.Length == 1)
+                {
+                    // Passes the process name string into process1 variable
+                    foreach (var process1 in Process.GetProcessesByName("Process name here"))
+                    {
+                        // Kills game process or whatever process you passed and set to kill. So if the process is detected running (which is set above), then kill this process what is set here (if its running).
+                        process1.Kill();
+
+                        // Puts a 1 ms sleep on the thread to prevent exception error after process is killed.
+                        Thread.Sleep(1000);
+                    }
+                }
+
+                // If the cheat is not running, do nothing
+                if (PC3E.Length == 0)
+                {
+                    // Do nothing.
+                }
+
+                // If the cheat is running, perform the following action/task.
+                else if (PC3E.Length == 1)
+                {
+                    // Passes the process name string into process1 variable
+                    foreach (var process1 in Process.GetProcessesByName("Process name here"))
+                    {
+                        // Kills game process or whatever process you passed and set to kill. So if the process is detected running (which is set above), then kill this process what is set here (if its running).
+                        process1.Kill();
+
+                        // Puts a 1 ms sleep on the thread to prevent exception error after process is killed.
+                        Thread.Sleep(1000);
+                    }
+                }
+
+                #endregion
             }
         }
     }
 }
-
-
