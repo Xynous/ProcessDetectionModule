@@ -2,8 +2,7 @@
     Author:
     Developer: Xynous (Also known as "Evention")
     IMPORTANT!
-    All credit goes to Xynous.
-    DO NOT REMOVE CREDITS ON WHO DEVELOPED THIS CLASS, as I have worked hard to get this class working.
+    All credit goes to Xynous. Do not remove credits from the developer of this class.
 */
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
