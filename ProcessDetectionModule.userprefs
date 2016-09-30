@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{3A3755D1-C43C-44D6-9616-01BA788FC833}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProcessDetectionModule/ProcessDetectionModule.cs">
+    <Files>
+      <File FileName="ProcessDetectionModule/ProcessDetectionModule.cs" Line="20" Column="49" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ProcessDetectionModule PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
