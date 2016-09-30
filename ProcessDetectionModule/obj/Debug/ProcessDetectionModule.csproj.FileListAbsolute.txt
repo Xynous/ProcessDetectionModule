@@ -1,0 +1,6 @@
+C:\Users\Ashleigh\Documents\GitHub\ProcessDetectionModule\ProcessDetectionModule\bin\Debug\ProcessDetectionModule.pdb
+C:\Users\Ashleigh\Documents\GitHub\ProcessDetectionModule\ProcessDetectionModule\obj\Debug\ProcessDetectionModule.csprojResolveAssemblyReference.cache
+C:\Users\Ashleigh\Documents\GitHub\ProcessDetectionModule\ProcessDetectionModule\obj\Debug\ProcessDetectionModule.pdb
+C:\Users\Ashleigh\Documents\GitHub\ProcessDetectionModule\ProcessDetectionModule\bin\Debug\ProcessDetectionModule.exe.config
+C:\Users\Ashleigh\Documents\GitHub\ProcessDetectionModule\ProcessDetectionModule\bin\Debug\ProcessDetectionModule.exe
+C:\Users\Ashleigh\Documents\GitHub\ProcessDetectionModule\ProcessDetectionModule\obj\Debug\ProcessDetectionModule.exe
