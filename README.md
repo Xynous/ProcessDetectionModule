@@ -2,10 +2,10 @@
 ProcessDetectionModule is a small function, what will monitor running proceses and kill processes when detected.
 
 # Credits:
-Xynous - Developer - Do not remove credits from official developer.
+Ashleigh Day - (Xynous)
 
 # Usage:
-You are free to use this source code for your own projects, but do not remove the credits and any credits go to Xynous.
+You are free to use this source code for your own projects.
 
 # Information:
 This C# function will monitor process running in the background and when a set process is detected, it will kill the process / Force close the set detected process. An example could be, if "cheat1" process is detected then close "gameprocess" to prevent any further damage or interuption for players.
