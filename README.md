@@ -17,6 +17,4 @@ To use this function for your project, you will need to implement depending on w
 The projects development status is complete.
 
 # Author/Credits:
-Ashleigh Day - (Xynous)
-
-Any usage of my project ideas or source code, please give the correct credits and references.
+Mr. Ashleigh Day
